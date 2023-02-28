@@ -1,0 +1,16 @@
+.bg__img__scroll{
+    background-image: url('img/doctor\ sit\ laptop.jpg');
+    background-image:rgba(0, 0, 0, 0.7);  
+    height: 40vh; 
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+    .bg__img__scroll{
+        background-attachment: scroll;
+    }
+    
+}
